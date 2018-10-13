@@ -1,22 +1,25 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "compatibility-based \"FriendFinder\" application",
+  "description": "\"FriendFinder\" application -- basically a dating app",
   "main": "server.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonjohan/FriendFinder.git"
+    "url": "git+https://github.com/ofuen/FriendFinder.git"
   },
-  "author": "",
+  "author": "Oscar Fuentes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sonjohan/FriendFinder/issues"
+    "url": "https://github.com/ofuen/FriendFinder/issues"
   },
-  "homepage": "https://github.com/sonjohan/FriendFinder#readme"
+  "homepage": "https://github.com/ofuen/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }
